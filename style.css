@@ -1,0 +1,57 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    margin: 0!important;
+}
+
+.item-lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 0.3fr;
+}
+
+.expenses-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 0.3fr;
+    text-align: start;
+}
+
+.expenses-header p{
+    padding: 10px 10px;
+    margin: 0;
+    border: 1px solid #777;
+    font-weight: bold;
+}
+
+.default-text{
+    padding: 10px;
+    border: 1px solid #777;
+    border-top: 0px;
+}
+
+.item-list p{
+    padding: 10px;
+    border: 1px solid #777;
+    border-top: 0px;
+}
+
+.delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.delete span{
+    border: 1px solid #777;
+    padding: 0px 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete span:hover{
+    background-color: green;
+    color: #fff;
+}
